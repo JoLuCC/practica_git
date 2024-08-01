@@ -9,9 +9,42 @@ body{
 h1{
     text-align: center;
     color: brown;
-    margin-top: 30px;
+    margin-top: 20px;
     padding-top: 8px;
     background-color: black;
     width: auto;
     height: 50px;
+}
+#divprincipal{
+    display: block;
+}
+#tituloanimal{
+    text-align: center;
+    width: auto;
+    margin: 20px;
+}
+#imagenanimal{
+    width: 400px;
+    height: 400px;
+    margin-left: 500px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+#divcuadrados{
+    display: flex;
+    margin-left: 500px;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 400px;
+    background-color: rgb(147, 201, 248);
+    margin-bottom: 40px;
+}
+.cuadrados{
+    background-color: brown;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-left: 20px;
 }
